@@ -1,6 +1,9 @@
 @import "../../common/colors.scss";
 
 .header {
+
+    background: url(https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80) no-repeat fixed center;
+
     background-color: $secondary-color;
     height: 72px;
     padding: 0px 40px;
