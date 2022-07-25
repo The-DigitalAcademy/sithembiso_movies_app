@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-// import PageNotFound from './components/PageNotFound/PageNotFound';
+import PageNotFound from './components/PageNotFound/PageNotFound';
 import MovieCard from './components/MovieCard/MovieCard';
+import SearchBar from './components/SearchBar';
 import "./App.scss";
 
 
@@ -13,13 +14,13 @@ const App = () => {
     <div className='app'>
       <Router>
         <Header></Header>
-        <div className='container'>
-
         
+        <div className='container'>
+        <SearchBar  placeholder='Enter Search...'/>
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/movie/:imdbID' component={MovieCard} />
-          {/* <Route component={PageNotFound} /> */}
+          <Route component={PageNotFound} />
         </Switch>
         </div>
         <Footer />
