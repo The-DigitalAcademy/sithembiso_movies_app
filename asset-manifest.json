@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/sithembiso_movies_app/static/css/main.0ddd149a.css",
-    "main.js": "/sithembiso_movies_app/static/js/main.c13d74b3.js",
+    "main.css": "/sithembiso_movies_app/static/css/main.93955f57.css",
+    "main.js": "/sithembiso_movies_app/static/js/main.acd9eb2b.js",
     "static/media/user.jpeg": "/sithembiso_movies_app/static/media/user.109eb92014ac0b55efdf.jpeg",
     "index.html": "/sithembiso_movies_app/index.html",
-    "main.0ddd149a.css.map": "/sithembiso_movies_app/static/css/main.0ddd149a.css.map",
-    "main.c13d74b3.js.map": "/sithembiso_movies_app/static/js/main.c13d74b3.js.map"
+    "main.93955f57.css.map": "/sithembiso_movies_app/static/css/main.93955f57.css.map",
+    "main.acd9eb2b.js.map": "/sithembiso_movies_app/static/js/main.acd9eb2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ddd149a.css",
-    "static/js/main.c13d74b3.js"
+    "static/css/main.93955f57.css",
+    "static/js/main.acd9eb2b.js"
   ]
 }
