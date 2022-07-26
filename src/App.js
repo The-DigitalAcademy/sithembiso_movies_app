@@ -5,7 +5,6 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import MovieCard from './components/MovieCard/MovieCard';
-import SearchBar from './components/SearchBar';
 import "./App.scss";
 
 
@@ -16,7 +15,6 @@ const App = () => {
         <Header></Header>
         
         <div className='container'>
-        <SearchBar  placeholder='Enter Search...'/>
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/movie/:imdbID' component={MovieCard} />
