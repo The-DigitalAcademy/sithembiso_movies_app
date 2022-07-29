@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { fetchAsyncMovies, fetchAsyncShows, } from "../../features/movies/movieSlice";
 import { Link } from 'react-router-dom';
 import user from '../../images/user.jpeg';
+// import PageNotFound from '../../images/PageNotFound.jpeg';
 import "./Header.scss";
 
 const Header = () => {
@@ -42,6 +43,9 @@ const Header = () => {
       <div className="user-image">
         <img src={user} alt="user" />
       </div>
+      {/* <div className="user-image">
+        <img src={PageNotFound} alt="PageNotFound" />
+      </div> */}
     </div>
   );
 };

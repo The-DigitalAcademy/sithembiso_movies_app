@@ -10,10 +10,13 @@
 a {
     text-decoration: none;
     color: $font-primary;
+    box-shadow: 0 0 15px 2px #ff9e00;
+    border-radius: 15px;
 }
 
 body {
-    background: url("https://file-uploads.teachablecdn.com/1b56d45f30994705a9935d4134cf95e1/3fdb15467c52413794d6611d94f702b0");
+    // background: url("https://file-uploads.teachablecdn.com/1b56d45f30994705a9935d4134cf95e1/3fdb15467c52413794d6611d94f702b0");
+    background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -26,3 +29,5 @@ body {
 .container {
     margin: 0px 40px;
 }
+
+
