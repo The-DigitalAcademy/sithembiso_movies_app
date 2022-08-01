@@ -1,18 +1,7 @@
-import { Switch } from '@mui/material';
-import { Router } from 'react-router-dom';
+import React from "react";
 
-
-function PageNotFound() {
-    return (
-        <Router>
-            <Switch>
-                <div className='pageNotFound'>
-                    <img src={PageNotFound.jpeg} height="500" width="" alt="not found" />  
-                </div>
-            </Switch>
-        </Router>
-        
-    )
-}
+const PageNotFound = () => {
+  return <div>PageNotFound</div>;
+};
 
 export default PageNotFound;
