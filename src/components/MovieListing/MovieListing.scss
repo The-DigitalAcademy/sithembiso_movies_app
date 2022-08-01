@@ -3,16 +3,13 @@
 .movie-list,
 .show-list {
     margin: 20px 0px;
+    border-radius: 6px;
 
     h2 {
         color: $font-secondary;
         margin-bottom: 10px;
         font-weight: 400;
+        box-shadow: 0 0 15px 2px #ffb845ba;
+        border-radius: 6px;
     }
 }
-
-// .movie-container {
-//     display: grid;
-//     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-//     grid-gap: 15px;
-// }
