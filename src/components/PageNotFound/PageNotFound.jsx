@@ -2,8 +2,8 @@ import React from "react";
 
 const PageNotFound = () => {
   return <div>
-
-        </div>
+    
+  </div>
 };
 
 export default PageNotFound;
