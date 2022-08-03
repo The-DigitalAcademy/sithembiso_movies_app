@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { fetchAsyncMovies, fetchAsyncShows, } from "../../features/movies/movieSlice";
 import { Link } from 'react-router-dom';
-import user from '../../images/user.jpeg';
+import sithembiso from '../../images/Sithembiso.jpeg';
 // import PageNotFound from '../../images/PageNotFound.jpeg';
 import "./Header.scss";
 
@@ -27,6 +27,7 @@ const Header = () => {
       <div className="logo">
         <Link to="/">Movie App</Link>
       </div>
+
       <div className="search-bar">
         <form onSubmit={submitHandler}>
           <input
@@ -35,13 +36,15 @@ const Header = () => {
             placeholder="Search Movies or Shows"
             onChange={(e) => setTerm(e.target.value)}
           />
+
           <button type="submit">
             <i className="fa fa-search"></i>
           </button>
+          
         </form>
       </div>
       <div className="user-image">
-        <img src={user} alt="user" />
+        <img src={sithembiso} alt="sithembiso" />
       </div>
       {/* <div className="user-image">
         <img src={PageNotFound} alt="PageNotFound" />
