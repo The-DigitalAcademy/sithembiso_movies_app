@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/sithembiso_movies_app/static/css/main.5d1a8ff1.css",
-    "main.js": "/sithembiso_movies_app/static/js/main.8fdfeb90.js",
-    "static/media/user.jpeg": "/sithembiso_movies_app/static/media/user.109eb92014ac0b55efdf.jpeg",
+    "main.css": "/sithembiso_movies_app/static/css/main.d975817b.css",
+    "main.js": "/sithembiso_movies_app/static/js/main.d040011c.js",
+    "static/media/Sithembiso.jpeg": "/sithembiso_movies_app/static/media/Sithembiso.a377728293fe7134d537.jpeg",
     "index.html": "/sithembiso_movies_app/index.html",
-    "main.5d1a8ff1.css.map": "/sithembiso_movies_app/static/css/main.5d1a8ff1.css.map",
-    "main.8fdfeb90.js.map": "/sithembiso_movies_app/static/js/main.8fdfeb90.js.map"
+    "main.d975817b.css.map": "/sithembiso_movies_app/static/css/main.d975817b.css.map",
+    "main.d040011c.js.map": "/sithembiso_movies_app/static/js/main.d040011c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d1a8ff1.css",
-    "static/js/main.8fdfeb90.js"
+    "static/css/main.d975817b.css",
+    "static/js/main.d040011c.js"
   ]
 }
