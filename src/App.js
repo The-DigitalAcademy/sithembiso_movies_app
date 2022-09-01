@@ -6,19 +6,23 @@ import Footer from "./components/Footer/Footer";
 // import PageNotFound from "./components/PageNotFound/PageNotFound";
 import MovieDetail from "./components/MovieDetail/MovieDetail";
 import "./App.scss";
+import FilmPage from "./pages/FilmPage";
 
 function App() {
   return (
     <div className="app">
       <Router>
         <Header></Header>
+        
         <div className="container">
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/movie/:imdbID" component={MovieDetail} />
+            <Route path="/film" component={FilmPage} />
             {/* <Route component={PageNotFound} /> */}
           </Switch>
         </div>
+        
         <Footer />
       </Router>
     </div>
